@@ -1,0 +1,785 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:_electromech
+LIBS:_linear
+LIBS:_logic
+LIBS:_passive
+LIBS:_semi
+LIBS:Abracon
+LIBS:ActiveSemi
+LIBS:Allegro
+LIBS:Altera
+LIBS:AMS
+LIBS:AnalogDevices
+LIBS:AOS
+LIBS:Bosch
+LIBS:conn-2mm
+LIBS:conn-100mil
+LIBS:conn-amphenol
+LIBS:conn-assmann
+LIBS:conn-cui
+LIBS:conn-fci
+LIBS:conn-jae
+LIBS:conn-linx
+LIBS:conn-molex
+LIBS:conn-special-headers
+LIBS:conn-tagconnect
+LIBS:conn-te
+LIBS:conn-test
+LIBS:DiodesInc
+LIBS:electomech-misc
+LIBS:Fairchild
+LIBS:FTDI
+LIBS:Infineon
+LIBS:Intersil
+LIBS:Lattice
+LIBS:LinearTech
+LIBS:Littelfuse
+LIBS:logic-4000
+LIBS:logic-7400
+LIBS:logic-7400-new
+LIBS:MACOM
+LIBS:Macrofab
+LIBS:maxim
+LIBS:mechanical
+LIBS:Micron
+LIBS:Murata
+LIBS:NXP
+LIBS:OceanOptics
+LIBS:onsemi
+LIBS:pasv-BelFuse
+LIBS:pasv-BiTech
+LIBS:pasv-Bourns
+LIBS:pasv-cap
+LIBS:pasv-ind
+LIBS:pasv-Murata
+LIBS:pasv-res
+LIBS:pasv-TDK
+LIBS:pasv-xtal
+LIBS:pcb
+LIBS:Recom
+LIBS:Richtek
+LIBS:semi-diode-DiodesInc
+LIBS:semi-diode-generic
+LIBS:semi-diode-MCC
+LIBS:semi-diode-NXP
+LIBS:semi-diode-OnSemi
+LIBS:semi-diode-Semtech
+LIBS:semi-diode-ST
+LIBS:semi-diode-Toshiba
+LIBS:semi-opto-generic
+LIBS:semi-opto-liteon
+LIBS:semi-thyristor-generic
+LIBS:semi-trans-AOS
+LIBS:semi-trans-DiodesInc
+LIBS:semi-trans-EPC
+LIBS:semi-trans-Fairchild
+LIBS:semi-trans-generic
+LIBS:semi-trans-Infineon
+LIBS:semi-trans-IRF
+LIBS:semi-trans-IXYS
+LIBS:semi-trans-NXP
+LIBS:semi-trans-OnSemi
+LIBS:semi-trans-Panasonic
+LIBS:semi-trans-ST
+LIBS:semi-trans-TI
+LIBS:semi-trans-Toshiba
+LIBS:semi-trans-Vishay
+LIBS:silabs
+LIBS:skyworks
+LIBS:ST
+LIBS:st_ic
+LIBS:supertex
+LIBS:symbol
+LIBS:TexasInstruments
+LIBS:u-blox
+LIBS:Vishay
+LIBS:Winbond
+LIBS:mDotBuddy-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x10_Male J3
+U 1 1 5A46FAA7
+P 8550 2050
+F 0 "J3" H 8550 2550 50  0000 C CNN
+F 1 "mDot_1_10" H 8550 1450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.00mm" H 8550 2050 50  0001 C CNN
+F 3 "" H 8550 2050 50  0001 C CNN
+	1    8550 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Male J4
+U 1 1 5A46FB20
+P 8550 3350
+F 0 "J4" H 8550 3850 50  0000 C CNN
+F 1 "mDot_11_20" H 8550 2750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.00mm" H 8550 3350 50  0001 C CNN
+F 3 "" H 8550 3350 50  0001 C CNN
+	1    8550 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08_Female J5
+U 1 1 5A46FDC3
+P 8550 4550
+F 0 "J5" H 8550 4950 50  0000 C CNN
+F 1 "JTAG" H 8400 4050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.00mm" H 8550 4550 50  0001 C CNN
+F 3 "" H 8550 4550 50  0001 C CNN
+	1    8550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06_Male J1
+U 1 1 5A4702A4
+P 2650 4950
+F 0 "J1" H 2650 5250 50  0000 C CNN
+F 1 "TTL-232R-3V3" H 2600 4550 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 2650 4950 50  0001 C CNN
+F 3 "" H 2650 4950 50  0001 C CNN
+	1    2650 4950
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A470493
+P 2750 2550
+F 0 "#PWR01" H 2750 2550 30  0001 C CNN
+F 1 "GND" H 2750 2480 30  0001 C CNN
+F 2 "" H 2750 2550 60  0000 C CNN
+F 3 "" H 2750 2550 60  0000 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR02
+U 1 1 5A4704AF
+P 4350 1600
+F 0 "#PWR02" H 4350 1650 30  0001 C CNN
+F 1 "VBUS" H 4350 1700 50  0000 C CNN
+F 2 "" H 4350 1600 60  0000 C CNN
+F 3 "" H 4350 1600 60  0000 C CNN
+	1    4350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3 #PWR03
+U 1 1 5A4704CB
+P 4950 2050
+F 0 "#PWR03" H 4950 2100 30  0001 C CNN
+F 1 "+3.3" H 4950 2150 50  0000 C CNN
+F 2 "" H 4950 2050 60  0000 C CNN
+F 3 "" H 4950 2050 60  0000 C CNN
+	1    4950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #PWR04
+U 1 1 5A4704E7
+P 4550 1600
+F 0 "#PWR04" H 4550 1600 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 1600 50  0001 C CNN
+F 2 "" H 4550 1600 60  0000 C CNN
+F 3 "" H 4550 1600 60  0000 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #PWR05
+U 1 1 5A47050B
+P 4750 2000
+F 0 "#PWR05" H 4750 2000 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 2000 50  0001 C CNN
+F 2 "" H 4750 2000 60  0000 C CNN
+F 3 "" H 4750 2000 60  0000 C CNN
+	1    4750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FT230XS U2
+U 1 1 5A4705CD
+P 6100 1800
+F 0 "U2" H 6100 2100 50  0000 C CNN
+F 1 "FT230XS" H 6100 2000 50  0000 C CNN
+F 2 "IPC7351-Nominal:SOP63P600X160-16" H 6100 2600 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 6100 2500 50  0001 C CNN
+F 4 "FT230XS" H 6100 2200 50  0001 C CNN "MPN"
+F 5 "FTDI" H 6100 2300 50  0001 C CNN "Manuf"
+F 6 "FTDI FT230XS" H 6100 2400 50  0001 C CNN "BOM"
+	1    6100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_A J2
+U 1 1 5A470BF3
+P 2750 2000
+F 0 "J2" H 2550 2450 50  0000 L CNN
+F 1 "USB_A" H 2550 2350 50  0000 L CNN
+F 2 "conn-cui:CONN-UP2-AH-1-TH" H 2900 1950 50  0001 C CNN
+F 3 "http://www.cui.com/product/resource/up2-ah-th.pdf" H 2900 1950 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+Text Label 5450 2400 2    60   ~ 0
+USB_M
+Text Label 5450 2500 2    60   ~ 0
+USB_P
+$Comp
+L BEAD E1
+U 1 1 5A471525
+P 3250 1650
+F 0 "E1" H 3250 1850 50  0000 C CNN
+F 1 "BEAD" H 3250 1750 50  0000 C CNN
+F 2 "IPC7351-Nominal:CAPC1608X90" H 3250 1700 60  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 3250 1700 60  0001 C CNN
+F 4 "BLM18PG600SN1D" H 3250 1650 60  0001 C CNN "PN"
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A47169A
+P 5400 3150
+F 0 "#PWR06" H 5400 3150 30  0001 C CNN
+F 1 "GND" H 5400 3080 30  0001 C CNN
+F 2 "" H 5400 3150 60  0000 C CNN
+F 3 "" H 5400 3150 60  0000 C CNN
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A4716D6
+P 5100 2950
+F 0 "C3" H 5125 3050 50  0000 L CNN
+F 1 "100nF" H 5125 2850 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X90" H 5138 2800 50  0001 C CNN
+F 3 "" H 5100 2950 50  0001 C CNN
+	1    5100 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A471AA6
+P 4050 2000
+F 0 "R2" V 4130 2000 50  0000 C CNN
+F 1 "27R" V 4050 2000 50  0000 C CNN
+F 2 "IPC7351-Nominal:RESC1608X50" V 3980 2000 50  0001 C CNN
+F 3 "" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A471AF0
+P 4050 2100
+F 0 "R3" V 4130 2100 50  0000 C CNN
+F 1 "27R" V 4050 2100 50  0000 C CNN
+F 2 "IPC7351-Nominal:RESC1608X50" V 3980 2100 50  0001 C CNN
+F 3 "" H 4050 2100 50  0001 C CNN
+	1    4050 2100
+	0    1    1    0   
+$EndComp
+Text Label 4250 2100 0    60   ~ 0
+USB_M
+Text Label 4250 2000 0    60   ~ 0
+USB_P
+NoConn ~ 2650 2400
+NoConn ~ 6700 3000
+NoConn ~ 6700 2700
+NoConn ~ 6700 2000
+NoConn ~ 6700 2100
+$Comp
+L GND #PWR07
+U 1 1 5A472E2B
+P 3000 5250
+F 0 "#PWR07" H 3000 5250 30  0001 C CNN
+F 1 "GND" H 3000 5180 30  0001 C CNN
+F 2 "" H 3000 5250 60  0000 C CNN
+F 3 "" H 3000 5250 60  0000 C CNN
+	1    3000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR08
+U 1 1 5A472E68
+P 3400 4950
+F 0 "#PWR08" H 3400 5000 30  0001 C CNN
+F 1 "VBUS" H 3400 5050 50  0000 C CNN
+F 2 "" H 3400 4950 60  0000 C CNN
+F 3 "" H 3400 4950 60  0000 C CNN
+	1    3400 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2850 4650
+NoConn ~ 2850 5050
+Text Label 6700 1900 0    60   ~ 0
+TX_MDOT
+Text Label 6700 1800 0    60   ~ 0
+RX_MDOT
+Text Label 2850 4850 0    60   ~ 0
+RX_MDOT
+Text Label 2850 4750 0    60   ~ 0
+TX_MDOT
+$Comp
+L VBUS #PWR09
+U 1 1 5A475515
+P 4500 4650
+F 0 "#PWR09" H 4500 4700 30  0001 C CNN
+F 1 "VBUS" H 4500 4750 50  0000 C CNN
+F 2 "" H 4500 4650 60  0000 C CNN
+F 3 "" H 4500 4650 60  0000 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5A475571
+P 5000 5250
+F 0 "#PWR010" H 5000 5250 30  0001 C CNN
+F 1 "GND" H 5000 5180 30  0001 C CNN
+F 2 "" H 5000 5250 60  0000 C CNN
+F 3 "" H 5000 5250 60  0000 C CNN
+	1    5000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC5504-3.3YM5 U1
+U 1 1 5A475FCA
+P 5000 4850
+F 0 "U1" H 4750 5100 50  0000 C CNN
+F 1 "MIC5504-3.3YM5" H 5400 5100 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5000 4450 50  0001 C CNN
+F 3 "" H 5000 5050 50  0001 C CNN
+	1    5000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR011
+U 1 1 5A47619F
+P 5500 4950
+F 0 "#PWR011" H 5500 5000 30  0001 C CNN
+F 1 "VBUS" H 5500 5050 50  0000 C CNN
+F 2 "" H 5500 4950 60  0000 C CNN
+F 3 "" H 5500 4950 60  0000 C CNN
+	1    5500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0805 C2
+U 1 1 5A479CEF
+P 4500 4950
+F 0 "C2" H 4250 4950 50  0000 C CNN
+F 1 "1uF" H 4250 4850 50  0000 C CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 4500 4950 50  0001 C CNN
+F 3 "" H 4490 4925 60  0000 C CNN
+F 4 "CAP MLCC 100pF C0G 50V 5% [0805]" H 5300 5500 60  0001 C CNN "BOM"
+	1    4500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0805 C4
+U 1 1 5A479D75
+P 5750 4950
+F 0 "C4" H 6050 5000 50  0000 C CNN
+F 1 "1uF" H 6050 4900 50  0000 C CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 5750 4950 50  0001 C CNN
+F 3 "" H 5740 4925 60  0000 C CNN
+F 4 "CAP MLCC 100pF C0G 50V 5% [0805]" H 6550 5500 60  0001 C CNN "BOM"
+	1    5750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3 #PWR012
+U 1 1 5A47A119
+P 5950 4650
+F 0 "#PWR012" H 5950 4700 30  0001 C CNN
+F 1 "+3.3" H 5950 4750 50  0000 C CNN
+F 2 "" H 5950 4650 60  0000 C CNN
+F 3 "" H 5950 4650 60  0000 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBLC6-2SC6 DZ1
+U 1 1 5A47A513
+P 3500 2050
+F 0 "DZ1" H 3200 2200 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 3900 1700 50  0000 C CNN
+F 2 "smd-semi:SOT-23-6" H 3500 1550 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00050750.pdf" H 3500 1350 50  0001 C CNN
+F 4 "TVS ST USBLC6-2SC6" H 3500 1450 50  0001 C CNN "BOM"
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2900 5400 2900
+Wire Wire Line
+	5400 2900 5400 3150
+Wire Wire Line
+	5500 3000 5400 3000
+Connection ~ 5400 3000
+Wire Wire Line
+	5100 1900 5100 2800
+Connection ~ 5100 2100
+Wire Wire Line
+	4950 2050 4950 2100
+Wire Wire Line
+	4750 2000 4750 2100
+Connection ~ 4950 2100
+Wire Wire Line
+	3800 2000 3900 2000
+Wire Wire Line
+	3800 2100 3900 2100
+Wire Wire Line
+	4750 2100 5500 2100
+Wire Wire Line
+	5100 1900 5500 1900
+Wire Wire Line
+	5100 2800 5500 2800
+Wire Wire Line
+	5100 3100 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	4200 2100 4250 2100
+Wire Wire Line
+	4200 2000 4250 2000
+Wire Wire Line
+	5450 2400 5500 2400
+Wire Wire Line
+	5450 2500 5500 2500
+Wire Wire Line
+	2750 2400 2750 2550
+Wire Wire Line
+	3800 1800 5500 1800
+Wire Wire Line
+	2850 5150 3000 5150
+Wire Wire Line
+	3000 5150 3000 5250
+Wire Wire Line
+	2850 4950 3400 4950
+Wire Wire Line
+	4500 4650 4500 4850
+Wire Wire Line
+	4500 4750 4600 4750
+Wire Wire Line
+	5000 5150 5000 5250
+Wire Wire Line
+	5400 4950 5500 4950
+Connection ~ 4500 4750
+Wire Wire Line
+	4500 5050 4500 5200
+Wire Wire Line
+	4500 5200 5750 5200
+Connection ~ 5000 5200
+Wire Wire Line
+	5750 5200 5750 5050
+Wire Wire Line
+	5750 4850 5750 4750
+Wire Wire Line
+	5400 4750 5950 4750
+Wire Wire Line
+	5950 4750 5950 4650
+Connection ~ 5750 4750
+Wire Wire Line
+	3050 2000 3200 2000
+Wire Wire Line
+	3050 2100 3200 2100
+Connection ~ 3500 1650
+$Comp
+L GND #PWR013
+U 1 1 5A47ACEE
+P 3500 2550
+F 0 "#PWR013" H 3500 2550 30  0001 C CNN
+F 1 "GND" H 3500 2480 30  0001 C CNN
+F 2 "" H 3500 2550 60  0000 C CNN
+F 3 "" H 3500 2550 60  0000 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2450 3500 2550
+$Comp
+L +3.3 #PWR014
+U 1 1 5A47B2E1
+P 2750 3400
+F 0 "#PWR014" H 2750 3450 30  0001 C CNN
+F 1 "+3.3" H 2750 3500 50  0000 C CNN
+F 2 "" H 2750 3400 60  0000 C CNN
+F 3 "" H 2750 3400 60  0000 C CNN
+	1    2750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-0603 DS1
+U 1 1 5A47B30C
+P 2750 3800
+F 0 "DS1" H 3100 3850 50  0000 C CNN
+F 1 "3V3_GOOD" H 3100 3750 50  0000 C CNN
+F 2 "smd-semi:LED-0603" H 2750 3650 50  0001 C CNN
+F 3 "" H 2750 3800 60  0000 C CNN
+F 4 "LED RED [0603]" H 2750 3550 60  0001 C CNN "BOM"
+	1    2750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-0805 R1
+U 1 1 5A47B35A
+P 2750 3550
+F 0 "R1" H 3000 3600 50  0000 C CNN
+F 1 "330R" H 3000 3500 50  0000 C CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 2750 3550 50  0001 C CNN
+F 3 "" H 2750 3600 60  0000 C CNN
+F 4 "RES SMD 1k 5% [0805]" H 3500 4100 60  0001 C CNN "BOM"
+	1    2750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5A47B44F
+P 2750 4000
+F 0 "#PWR015" H 2750 4000 30  0001 C CNN
+F 1 "GND" H 2750 3930 30  0001 C CNN
+F 2 "" H 2750 4000 60  0000 C CNN
+F 3 "" H 2750 4000 60  0000 C CNN
+	1    2750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3900 2750 4000
+Wire Wire Line
+	2750 3650 2750 3700
+Wire Wire Line
+	2750 3400 2750 3450
+$Comp
+L TACT-TE-FSMSM SW1
+U 1 1 5A47BC1E
+P 4500 3700
+F 0 "SW1" H 4500 3900 50  0000 C CNN
+F 1 "TACT-CK-PTS645-SMD" H 4850 3800 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 4500 3450 60  0001 C CNN
+F 3 "" H 4500 3700 60  0000 C CNN
+	1    4500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-0805 R4
+U 1 1 5A47BC7F
+P 4250 3500
+F 0 "R4" H 4500 3550 50  0000 C CNN
+F 1 "100K" H 4500 3450 50  0000 C CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 4250 3500 50  0001 C CNN
+F 3 "" H 4250 3550 60  0000 C CNN
+F 4 "RES SMD 1k 5% [0805]" H 5000 4050 60  0001 C CNN "BOM"
+	1    4250 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-0805 C1
+U 1 1 5A47BD19
+P 4250 4000
+F 0 "C1" H 4550 4050 50  0000 C CNN
+F 1 "0.1uF" H 4550 3950 50  0000 C CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 4250 4000 50  0001 C CNN
+F 3 "" H 4240 3975 60  0000 C CNN
+F 4 "CAP MLCC 100pF C0G 50V 5% [0805]" H 5050 4550 60  0001 C CNN "BOM"
+	1    4250 4000
+	-1   0    0    -1  
+$EndComp
+Text Label 3800 3700 2    60   ~ 0
+RESET
+Wire Wire Line
+	4250 3600 4250 3900
+Wire Wire Line
+	3800 3700 4350 3700
+Connection ~ 4250 3700
+$Comp
+L +3.3 #PWR016
+U 1 1 5A47C293
+P 4250 3300
+F 0 "#PWR016" H 4250 3350 30  0001 C CNN
+F 1 "+3.3" H 4250 3400 50  0000 C CNN
+F 2 "" H 4250 3300 60  0000 C CNN
+F 3 "" H 4250 3300 60  0000 C CNN
+	1    4250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3300 4250 3400
+$Comp
+L GND #PWR017
+U 1 1 5A47C371
+P 4250 4200
+F 0 "#PWR017" H 4250 4200 30  0001 C CNN
+F 1 "GND" H 4250 4130 30  0001 C CNN
+F 2 "" H 4250 4200 60  0000 C CNN
+F 3 "" H 4250 4200 60  0000 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4100 4250 4200
+$Comp
+L GND #PWR018
+U 1 1 5A47C40A
+P 4750 3950
+F 0 "#PWR018" H 4750 3950 30  0001 C CNN
+F 1 "GND" H 4750 3880 30  0001 C CNN
+F 2 "" H 4750 3950 60  0000 C CNN
+F 3 "" H 4750 3950 60  0000 C CNN
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3700 4750 3700
+Wire Wire Line
+	4750 3700 4750 3950
+Text Label 8150 2050 2    60   ~ 0
+RESET
+Text Label 8150 4950 2    60   ~ 0
+TX_MDOT
+Text Label 8150 4850 2    60   ~ 0
+RX_MDOT
+Wire Wire Line
+	8150 2050 8350 2050
+NoConn ~ 8350 1950
+NoConn ~ 8350 2150
+NoConn ~ 8350 2250
+NoConn ~ 8350 2350
+NoConn ~ 8350 2450
+$Comp
+L GND #PWR019
+U 1 1 5A47D2DC
+P 8150 2650
+F 0 "#PWR019" H 8150 2650 30  0001 C CNN
+F 1 "GND" H 8150 2580 30  0001 C CNN
+F 2 "" H 8150 2650 60  0000 C CNN
+F 3 "" H 8150 2650 60  0000 C CNN
+	1    8150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2550 8150 2550
+Wire Wire Line
+	8150 2550 8150 2650
+$Comp
+L +3.3 #PWR020
+U 1 1 5A47D3C9
+P 8150 1550
+F 0 "#PWR020" H 8150 1600 30  0001 C CNN
+F 1 "+3.3" H 8150 1650 50  0000 C CNN
+F 2 "" H 8150 1550 60  0000 C CNN
+F 3 "" H 8150 1550 60  0000 C CNN
+	1    8150 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1550 8150 1650
+Wire Wire Line
+	8150 1650 8350 1650
+NoConn ~ 8350 2950
+NoConn ~ 8350 3050
+NoConn ~ 8350 3150
+NoConn ~ 8350 3250
+NoConn ~ 8350 3350
+NoConn ~ 8350 3450
+NoConn ~ 8350 3550
+NoConn ~ 8350 3650
+NoConn ~ 8350 3750
+NoConn ~ 8350 3850
+NoConn ~ 8350 4250
+NoConn ~ 8350 4450
+NoConn ~ 8350 4550
+NoConn ~ 8350 4650
+NoConn ~ 8350 4750
+NoConn ~ 8350 1850
+NoConn ~ 8350 1750
+Wire Wire Line
+	8150 4850 8350 4850
+Wire Wire Line
+	8150 4950 8350 4950
+$Comp
+L GND #PWR021
+U 1 1 5A47E7BA
+P 8150 4450
+F 0 "#PWR021" H 8150 4450 30  0001 C CNN
+F 1 "GND" H 8150 4380 30  0001 C CNN
+F 2 "" H 8150 4450 60  0000 C CNN
+F 3 "" H 8150 4450 60  0000 C CNN
+	1    8150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4350 8150 4350
+Wire Wire Line
+	8150 4350 8150 4450
+Wire Notes Line
+	7500 1200 7500 5300
+Wire Notes Line
+	7500 5300 8950 5300
+Wire Notes Line
+	8950 5300 8950 1200
+Wire Notes Line
+	8950 1200 7500 1200
+Text Notes 7500 1150 0    60   ~ 0
+mDot-X1-SMA
+Wire Wire Line
+	4350 1600 4350 1800
+Connection ~ 4350 1800
+Wire Wire Line
+	4550 1600 4550 1800
+Connection ~ 4550 1800
+Wire Wire Line
+	3050 1800 3150 1800
+Wire Wire Line
+	3150 1800 3150 1650
+Wire Wire Line
+	3350 1650 3800 1650
+Wire Wire Line
+	3800 1650 3800 1800
+$EndSCHEMATC
